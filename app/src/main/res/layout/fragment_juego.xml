@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".juegoFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="10dp"
+        android:text="Juego"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:background="@color/purpura2"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"/>
+
+    <TextView
+        android:id="@+id/numberTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="200dp"
+        android:layout_marginLeft="30dp"
+        android:layout_gravity="center"
+        android:background="@color/gray"
+        android:text="0"
+        android:textSize="60sp" />
+
+    <Button
+        android:id="@+id/lowerButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/numberTextView"
+        android:layout_marginBottom="100dp"
+        android:layout_marginRight="40dp"
+        android:layout_gravity="center"
+        android:layout_toLeftOf="@id/numberTextView"
+        android:backgroundTint="@color/black"
+        android:textSize="20dp"
+        android:text="Menor" />
+
+    <Button
+        android:id="@+id/higherButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/numberTextView"
+        android:layout_marginBottom="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_gravity="center"
+        android:layout_toRightOf="@id/numberTextView"
+        android:backgroundTint="@color/black"
+        android:textSize="20dp"
+        android:text="Mayor" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@color/purple_200"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="40dp"
+        android:layout_gravity="center"
+        android:text="En este juego, se va generar un número aleatorio entre 1 y 100. Debes intentar adivinar si el proximo numero que se genere sera mayor o menor en comparacion del número actual. Si la suposición es correcta, ganas."
+        android:textSize="18sp" />
+
+
+
+</FrameLayout>

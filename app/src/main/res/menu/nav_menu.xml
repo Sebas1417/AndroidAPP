@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Perfil"
+        android:id="@+id/perfilbtn"
+        android:icon="@drawable/perfil"/>
+    <item android:title="Fotos"
+        android:id="@+id/fotosbtn"
+        android:icon="@drawable/fotos"/>
+    <item android:title="Video"
+        android:id="@+id/videobtn"
+        android:icon="@drawable/video_1"/>
+    <item android:title="Web"
+        android:id="@+id/webxbtn"
+        android:icon="@drawable/web"/>
+    <item android:title="Juego"
+        android:id="@+id/juegobtn"
+        android:icon="@drawable/juego"/>
+</menu>
